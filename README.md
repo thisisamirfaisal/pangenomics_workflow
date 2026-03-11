@@ -16,3 +16,9 @@ This repository contains a complete workflow for bacterial pangenome analysis us
    ```bash
    git clone https://github.com/yourusername/pangenome-workflow.git
    cd pangenome-workflow
+2. **Create the Conda envirnment
+   ```bash
+   conda env create -f environment.yml
+   conda activate pangenome
+3. **Run a test with provided example data (see test_data/README.md)
+4. Explore the scripts in the scripts/ folder and adapt them to your own data.
